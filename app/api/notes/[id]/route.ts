@@ -1,7 +1,7 @@
 import { getDataFromDoc } from "@/utils";
 import { doc, getDoc, updateDoc } from "firebase/firestore";
 import { NextResponse } from "next/server";
-import { notes } from "..";
+import { notes } from "../..";
 
 export const GET = async (
   req: Request,

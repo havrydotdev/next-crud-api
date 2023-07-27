@@ -1,6 +1,6 @@
 import { addDoc, doc, getDocs, setDoc } from "firebase/firestore";
 import { NextResponse } from "next/server";
-import { notes } from ".";
+import { notes } from "..";
 import { Note } from "@/types";
 import { getDataFromDoc } from "@/utils";
 
